@@ -1,0 +1,28 @@
+{
+  "name": "basic-stopwatch",
+  "version": "0.0.1",
+  "description": "really BASIC.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanlucian/node-basic-stopwatch.git"
+  },
+  "keywords": [
+    "stopwatch",
+    "basic",
+    "simple",
+    "fast"
+  ],
+  "author": "alanlucian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alanlucian/node-basic-stopwatch/issues"
+  },
+  "homepage": "https://github.com/alanlucian/node-basic-stopwatch#readme",
+  "dependencies": {
+    "object-merge-advanced": "^10.10.21"
+  }
+}
