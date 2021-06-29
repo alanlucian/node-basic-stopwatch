@@ -1,4 +1,3 @@
-const mergeAdvanced = require("object-merge-advanced");
 
 const defaultConfig = {
     outputFunc:( time )=>{
@@ -7,7 +6,7 @@ const defaultConfig = {
 }
 function BasicStopwatch( config = {} ){
 
-    let _config = mergeAdvanced(defaultConfig,config);
+    let _config = { ...defaultConfig, ...config };
 
     let _isRunning = false;
     let startedAt = null;

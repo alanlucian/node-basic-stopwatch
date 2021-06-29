@@ -1,6 +1,6 @@
 {
   "name": "basic-stopwatch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "really BASIC.",
   "main": "src/index.js",
   "scripts": {
@@ -23,6 +23,5 @@
   },
   "homepage": "https://github.com/alanlucian/node-basic-stopwatch#readme",
   "dependencies": {
-    "object-merge-advanced": "^10.10.21"
   }
 }
